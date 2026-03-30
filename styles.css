@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(196, 137, 137);
+    align-items:center;
+    display: flex;
+    height: 110vh;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.card{
+    background-color: rgb(196, 113, 113);
+    width: 400px;
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: blue;
+    
+}
+.row{
+    justify-content:space-between;
+    margin: 10px ;
+    display: flex;
+    padding: 9px 0 3px 0;
+    height: 1vh;
+    
+}
+h1{
+    color: blue;
+    font-size: 35px;
+}
+h3{
+    color: rgb(6, 4, 7);
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td{
+    border:1px solid blue;
+    padding: 8px;
+    
+}
+th{
+    background-color: rgb(8, 230, 119);
+    color: rgba(7, 1, 1, 0.932);
+    
+}
